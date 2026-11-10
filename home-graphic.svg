@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 490" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Orbiting green moon with botanical forms</title>
+  <desc id="desc">A luminous glassy green orb floats inside fine orbital rings above a branching stem with leaves.</desc>
+  <defs>
+    <radialGradient id="orb" cx="34%" cy="27%" r="74%">
+      <stop offset="0" stop-color="#e8f7d3" stop-opacity=".82"/>
+      <stop offset=".27" stop-color="#b7d89a" stop-opacity=".72"/>
+      <stop offset=".68" stop-color="#5d8b5e" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#183c27" stop-opacity=".88"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d8edbb" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#5f9166" stop-opacity=".28"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#b8dd9d" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#b8dd9d" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+  <circle cx="222" cy="221" r="176" fill="url(#halo)"/>
+  <g stroke="#d2e9be" stroke-opacity=".32" stroke-width="1">
+    <ellipse cx="220" cy="227" rx="197" ry="89" transform="rotate(-24 220 227)"/>
+    <ellipse cx="220" cy="227" rx="161" ry="62" transform="rotate(31 220 227)" stroke-opacity=".22"/>
+    <path d="M29 290c59-51 121-73 186-69 64 4 128 34 193 88" stroke-opacity=".18"/>
+  </g>
+  <circle cx="218" cy="217" r="106" fill="#9acb83" fill-opacity=".22" filter="url(#glow)"/>
+  <circle cx="218" cy="217" r="91" fill="url(#orb)" stroke="#e0f1d2" stroke-opacity=".62"/>
+  <circle cx="218" cy="217" r="82" stroke="#e7f4dc" stroke-opacity=".2"/>
+  <path d="M155 226c13-37 48-66 91-68 20-1 39 3 56 12-10-22-32-37-59-40-49-5-94 31-99 80-1 8 0 16 1 24 3-3 6-6 10-8Z" fill="#eff9df" fill-opacity=".25"/>
+  <path d="M159 189c17-25 45-42 75-44" stroke="#f3f9e8" stroke-opacity=".68" stroke-width="2" stroke-linecap="round"/>
+  <path d="M157 244c30 39 87 53 132 28" stroke="#e6f3d8" stroke-opacity=".28" stroke-width="1.2"/>
+  <g stroke="#cce4b8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M219 427c2-53 5-83 6-117" stroke-opacity=".7" stroke-width="1.5"/>
+    <path d="M222 377c-18-22-34-31-52-35 7 20 24 33 51 40M224 355c17-23 34-34 53-38-7 22-25 37-53 44M221 401c-19-16-35-22-51-22 11 16 28 25 51 28M224 391c18-17 34-24 50-24-9 18-26 28-50 31" fill="url(#leaf)" fill-opacity=".58" stroke-opacity=".75" stroke-width="1.2"/>
+    <path d="M170 342c12 12 28 23 50 33M277 318c-13 13-30 26-53 39M171 379c13 8 29 15 49 20M274 367c-12 9-28 16-49 22" stroke-opacity=".48" stroke-width=".8"/>
+  </g>
+  <g fill="#e4f4d0">
+    <circle cx="103" cy="157" r="2.2"/><circle cx="333" cy="287" r="1.8"/><circle cx="304" cy="110" r="1.5"/>
+  </g>
+  <path d="m337 162 2.2 6.2 6.2 2.2-6.2 2.2-2.2 6.2-2.2-6.2-6.2-2.2 6.2-2.2 2.2-6.2Z" fill="#d7edbc" fill-opacity=".85"/>
+  <path d="m93 305 1.5 4.2 4.2 1.5-4.2 1.5-1.5 4.2-1.5-4.2-4.2-1.5 4.2-1.5 1.5-4.2Z" fill="#c8e3ad" fill-opacity=".7"/>
+</svg>
